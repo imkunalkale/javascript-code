@@ -269,3 +269,29 @@
 // arr.forEach(function(){})
 
 // // constrctor function
+
+// ex1
+
+// function biscuit(){
+//     this.width = 12;
+//     this.height =22;
+//     this.color= "brow";
+//     this.teste = "sugare";
+// }
+// var bis = new biscuit();
+
+// ex2
+
+// function biscuit(color) {
+//   this.width = 12;
+//   this.height = 22;
+//   this.color = "brow";
+//   this.teste = "sugare";
+// }
+// var red = new biscuit("red");
+
+// // first class func 
+
+setTimeout(function(){
+    console.log("hello");
+})
