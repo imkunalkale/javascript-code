@@ -3,8 +3,14 @@
 // var kunal = "23";
 // console.log(kunal);
 
+// let kunal = "kale"
+// console.log("kunal");
+
 // let name = "kale";
 // console.log(name);
+
+// const name = "kale"
+// console.log("name")
 
 // const age = "21"
 // console.log(age);
@@ -16,6 +22,11 @@
 // console.log(b);
 // console.log(a);
 
+// let a = [1,2,3,4,5,6,7,9,];
+// const b = a;
+// console.log(a);
+// console.log(b);
+
 // // (conditionlas)
 
 // if (10 < 20) {
@@ -23,6 +34,19 @@
 // }
 // else {
 //   console.log(false);
+// }
+
+// if (32 > 121) {
+//   console.log("yes");
+// } else {
+//   console.log("no");
+// }
+
+// if (2 <= 2) {
+//   console.log("ok");
+// }
+// else {
+//     console.log("ono");
 // }
 
 // if (114 < 20) {
@@ -53,10 +77,25 @@
 // }
 // helobolo();
 
+// function konHahe(){
+//     console.log("miaahe");
+// }
+// konHahe();
+
 // function abcd(a, b, c) {
 //   console.log(a, b, c);
 // }
 // abcd(12, 12, 32);
+
+// function kale(a, b, c) {
+//   console.log(a, b, c);
+// }
+// kale(12, 34, 32);
+
+// function kunal(a, b, c) {
+//   console.log(a, b, c);
+// }
+// kunal("kuanl","mangesh","kale");
 
 // function a() {
 //   if (21 > 22) {
@@ -67,20 +106,40 @@
 // }
 // a();
 
-// function a(){
-//     let kunal = 12;
+// function a(){ //func
+//     let kunal = 12; //varibals
 //     console.log(kunal);
 // }
 // a();
 
+// function b(){
+//     const kale = 32;
+//     console.log(kale);
+// }
+// b();
+
+
+
+
+
 // // arrays
 
-// const arr = [1,3,45,6,7,8];
+// const arrS = [1,3,3,4,5];
 // arr.push(0);
 // arr.unshift(2);
 // arr.pop(1);
 // arr.shift(0);
-// arr.splice(2,4)
+// arrS.splice(2,4)
+// console.log(arrS);
+
+
+
+// let arr = [11,22,33,44,55];
+// arr.pop(0)
+// arr.shift(2)
+// arr.unshift(1)
+// arr.push(66);
+// arr.splice(2,3);
 // console.log(arr);
 
 // function abcd(){
@@ -94,7 +153,7 @@
 
 // for (var i = 0; i<7; i++){
 //   console.log(i);
-//}
+// }
 
 // for (var i = 0; i < 4; i++) {
 //   console.log(i);
@@ -258,11 +317,6 @@
 
 // // ex 2
 
-// function abcd(){
-//     return function(){}
-// }
-// abcd();
-
 // ex 2 forEach
 
 // var arr = [1,2,3,4,5];
@@ -290,8 +344,8 @@
 // }
 // var red = new biscuit("red");
 
-// // first class func 
+// // first class func
 
-setTimeout(function(){
-    console.log("hello");
-})
+// setTimeout(function(){
+//     console.log("hello");
+// })
