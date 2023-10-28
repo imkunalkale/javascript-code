@@ -62,7 +62,6 @@
 // else{
 //     console.log(false);
 // }
-g
 // if (21>22){
 //     console.log("hello");
 // }
@@ -134,6 +133,8 @@ g
 
 
 
+
+
 // let arr = [11,22,33,44,55];
 // arr.pop(0)
 // arr.shift(2)
@@ -154,6 +155,10 @@ g
 // for (var i = 0; i<7; i++){
 //   console.log(i);
 // }
+
+// for (let i = 0; i<10; i++){
+//   console.log(i);
+//}
 
 // for (var i = 0; i < 4; i++) {
 //   console.log(i);
@@ -348,4 +353,64 @@ g
 
 // setTimeout(function(){
 //     console.log("hello");
-// })
+// }, 2000);
+
+
+// // prototypal inheritance
+
+
+
+// var human = {
+//     canFly: false,
+//     canTalk: false,
+//     willDte: true
+// }
+
+// var sheryianStudent = {
+//     solveJsQuetions: true,
+//     createModernWebsite: true
+// }
+
+// sheryianStudent.__proto__= human;
+// console.log();
+
+
+
+
+
+
+
+
+
+
+
+
+// event listeners
+
+
+
+var button = document.querySelector("button");
+button.addEventListener("click",function(){
+    this.style.color= "red";
+})
+
+button();
+
+
+var buttons = document.querySelectorbyID("#btn");
+buttons.addEventListener("click",function(){
+    this.style.color= "red";
+})
+
+buttons();
+
+
+// call apply bind  
+
+// function abcd(){
+//     console.log(this);
+// }
+
+// var obj ={age:21};
+
+// abcd.call(obj);

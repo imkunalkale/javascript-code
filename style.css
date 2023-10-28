@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+#main_div {
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#main_div h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 18%;
+    font-size: 10vw;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #fff;
+    opacity: .7;
+
+}
